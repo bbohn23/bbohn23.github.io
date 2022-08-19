@@ -313,7 +313,7 @@ ul.btn li:last-child {
 
 .navigation.navbar {
      float: right;
-     padding-top: 15px !important;
+     padding-top: 20px !important;
      padding: 0;
 }
 
@@ -367,22 +367,22 @@ ul.btn li:last-child {
 
 .header {
      width: 100%;
-     padding: 30px 30px;
-     border-bottom: #c6cad5 solid 12px;
+     padding: 15px 15px;
+     border-bottom: #c6cad5 solid 5px;
      background-color: #13110e;
 }
 
 .logo {
      position: relative;
-     padding-left: 50%;
-     padding-top: 6px;
+     padding-left: 20%;
+     padding-top: 0px;
 }
 
 .logo::after {
      position: absolute;
      content: "";
-     width: 136px;
-     height: 110px;
+     width: 50px;
+     height: 111px;
      left: -45px;
      top: -30px;
      background: url(../images/top_head.png);
