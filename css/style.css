@@ -394,7 +394,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/amberbanner.jpg);
      background-repeat: no-repeat;
      min-height: 840px;
      background-size: 100% 100%;
@@ -409,21 +409,34 @@ ul.btn li:last-child {
 }
 
 .text-bg h1 {
-     text-transform: uppercase;
-     color: #fff;
+     color: #dfb72c;
      font-size: 110px;
      line-height: 120px;
      padding-bottom: 15px;
      font-weight: bold;
+     font-style: italic;
+     font-family: helvetica;
+     font-stretch: ultra-condensed;
+     text-shadow: 5px 5px #000000, 0px 0px 15px #000000;
+}
+
+.text-bg h2 {
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 30px;
+     padding-bottom: 15px;
+     font-weight: bold;
+     text-shadow: 3px 3px #000000, 0px 0px 15px #000000;
 }
 
 .text-bg p {
-     font-size: 17px;
+     font-size: 22px;
      color: #fff;
      line-height: 28px;
      font-weight: 500;
      padding-bottom: 50px;
      display: block;
+     text-shadow: 1px 1px #000000, 0px 0px 15px #000000;
 }
 
 .text-bg a {
