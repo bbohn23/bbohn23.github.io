@@ -231,7 +231,7 @@ button {
      width: 100%;
      float: left;
      margin: 0;
-     padding: 0;
+     padding-left: 15px;
 }
 
 
@@ -367,27 +367,19 @@ ul.btn li:last-child {
 
 .header {
      width: 100%;
+     height: auto;
      padding: 15px 15px;
      border-bottom: #c6cad5 solid 5px;
      background-color: #13110e;
 }
 
 .logo {
-     position: relative;
-     padding-left: 20%;
+     position: static;
+     padding-left: 0px;
      padding-top: 0px;
-}
-
-.logo::after {
-     position: absolute;
-     content: "";
-     width: 50px;
-     height: 111px;
-     left: -45px;
-     top: -30px;
-     background: url(../images/top_head.png);
-     background-repeat: no-repeat;
-     border-right: #c6cad5 solid 15px;
+     left: 0px;
+     top: 0px;
+     height: 66px;
 }
 
 
@@ -395,10 +387,9 @@ ul.btn li:last-child {
 
 .banner_main {
      background: url(../images/amberbanner.jpg);
-     object-fit: cover;
      background-repeat: no-repeat;
      min-height: 840px;
-     background-size: 100% 100%;
+     background-size: cover;
      display: flex;
      justify-content: center;
      align-content: center;
@@ -516,7 +507,7 @@ ul.btn li:last-child {
 }
 
 .box_text {
-     box-shadow: 0 0 95px rgba(13, 3, 3, 0.56);
+     box-shadow: 0 0 15px #000000;
 }
 
 .box_text figure {
@@ -544,13 +535,16 @@ ul.btn li:last-child {
 }
 
 .hottest .titlepage h2 {
-     color: #000;
+     color: #454545;
+     font-family: helvetica;
+     font-style: italic;
 }
 
 .hottest .hottest_box {
      position: relative;
      background-color: #f4cb1e;
      padding: 60px 40px;
+     box-shadow: 0 0 20px #000000;
 }
 
 .hottest .hottest_box::after {
@@ -565,6 +559,7 @@ ul.btn li:last-child {
      background-repeat: no-repeat;
      display: block;
      background-position: center center;
+
 }
 
 .hottest .hottest_box p {
