@@ -18,6 +18,9 @@
         line-height: 100px;
         padding-bottom: 11px;
     }
+    .titlepage h3 {
+      font-size: 86px;
+    }
     .choose_text h3 {
         font-size: 18px;
     }
@@ -72,6 +75,9 @@
     .titlepage h2 {
         font-size: 33px;
     }
+    .titlepage h3 {
+      font-size: 80px;
+    }
     .d_none {
         display: none;
     }
@@ -125,6 +131,9 @@
     .titlepage h2 {
         font-size: 34px;
     }
+    .titlepage h3 {
+      font-size: 60px;
+    }    
     .about_img {
         margin-bottom: 20px;
     }
@@ -251,6 +260,9 @@
     .titlepage h2 {
         font-size: 27px;
         line-height: 44px;
+    }
+    .titlepage h3{
+      font-size: 50px;
     }
     ul.location_icon li {
         padding-left: 0px;

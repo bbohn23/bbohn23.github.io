@@ -354,7 +354,7 @@ ul.btn li:last-child {
      padding: 8px 39px;
      color: #fff;
      font-size: 16px;
-     background-color: #f4cb1e;
+     background-color: #dfb72c;
      text-transform: uppercase;
      margin-top: -10px;
      margin-left: 30px;
@@ -466,6 +466,19 @@ ul.btn li:last-child {
      line-height: 62px;
      font-weight: bold;
      padding: 0;
+}
+
+.titlepage h3 {
+     color: #4d4d4d;
+     font-size: 110px;
+     line-height: 60px;
+     padding-bottom: 15px;
+     font-weight: bold;
+     font-style: italic;
+     font-family: helvetica;
+     font-stretch: ultra-condensed;
+     text-shadow: 5px 5px #000000, 2px 2px 15px #000000;
+     animation: fadeIn 5s;
 }
 
 .d_flex {
@@ -613,19 +626,38 @@ ul.btn li:last-child {
 }
 
 .choose_img {
-     background-color: #fff;
-     padding: 20px;
-     margin-left: 30px;
-     margin-right: 40px;
+     padding-left: 30px;
+     padding-top: 30px;
 }
 
 .choose_img figure {
      margin: 0;
-     margin-left: -50px;
+     margin-left: -5px;
+     box-shadow: 0 0 0 3px #dfb72c, 0 0 25px 5px #000000;
 }
 
 .choose_img figure img {
      width: 100%;
+}
+
+.choose_container {
+     position: relative;
+     overflow: hidden;
+     width: 100%;
+     padding-top: 80%;
+     margin-left: -15px;
+     background: white;
+}
+
+.choose_iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     width: 97%;
+     height: 97%;
+     box-shadow: 0 0 25px #000000;
 }
 
 .padding_with {
@@ -636,6 +668,11 @@ ul.btn li:last-child {
 
 .choose_box {
      display: flex;
+     transition: all .3s ease-in-out;
+}
+
+.choose_box:hover{
+      transform: scale(1.1)
 }
 
 .choose_box i {
@@ -645,9 +682,9 @@ ul.btn li:last-child {
 .choose_box i img {
      float: left;
      background-color: #f4cb1e;
-     width: 140px;
+     width: 165px;
      padding: 10px;
-     border-radius: 60px;
+     border-radius: 10px;
 }
 
 .choose_text {
@@ -683,15 +720,20 @@ ul.btn li:last-child {
      position: relative;
      margin-bottom: 30px;
      box-shadow: 0 0 51px rgba(13, 3, 3, 0.13);
+     transition: all .3s ease-in-out;
 }
 
 .product_box figure {
      margin: 0;
 }
+.product_box:hover {
+     transform: scale(1.05);
+}
 
 .product_box figure img {
      width: 100%;
      height: 343px;
+     object-fit: cover;
 }
 
 .product_box h3 {
@@ -883,7 +925,8 @@ ul.btn li:last-child {
 }
 
 ul.social_icon {
-     padding-top: 6px;
+     padding-top: 15px;
+     padding-bottom: 15px;
 }
 
 ul.social_icon li {
@@ -903,7 +946,7 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background-color: #f4cb1e;
+     background-color: #dfb72c;
      color: #fff;
 }
 
@@ -925,18 +968,18 @@ ul.location_icon li {
      font-size: 18px;
      line-height: 20px;
      color: #fff;
-     padding-bottom: 25px;
+     padding-bottom: 10px;
 }
 
 ul.location_icon li a {
-     font-size: 30px;
+     font-size: 18px;
      color: #fff;
      line-height: 30px;
      padding-right: 15px;
 }
 
 ul.location_icon li a:hover {
-     color: #00ff00;
+     color: #dfb72c;
 }
 
 .footer h3 {
@@ -1039,3 +1082,25 @@ ul.link li a::after {
      margin-top: 70px;
 }
 
+/** Dealers section **/
+.dealers h1 {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: left;
+}
+
+.dealers h2 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.dealers_icon {
+  max-height: 480px;
+}
+
+.dealers_icon img {
+  max-height: 470px;
+  
+}
+
+/** Dealers section end **/
