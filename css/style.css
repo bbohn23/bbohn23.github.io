@@ -1057,7 +1057,7 @@ ul.link li a::after {
 .copyright {
      margin-top: 70px;
      padding: 20px 0px;
-     background-color: #f4cb1e;
+     background-color: #dfb72c;
 }
 
 .copyright p {
@@ -1086,21 +1086,30 @@ ul.link li a::after {
 .dealers h1 {
   color: #ffffff;
   font-size: 40px;
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom:20px;
+  padding-top:40px;
 }
 
 .dealers h2 {
   color: #fff;
   font-size: 22px;
+  padding-top: 10px;
+}
+
+.dealers h3 {
+  color: #fff;
+  font-size: 18px;
 }
 
 .dealers_icon {
-  max-height: 480px;
+  padding-top: 30px;
 }
 
-.dealers_icon img {
-  max-height: 470px;
-  
+.dealers iframe {
+  width: 100%;
+  height: 540px;
 }
 
 /** Dealers section end **/
