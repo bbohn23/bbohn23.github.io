@@ -396,6 +396,17 @@ ul.btn li:last-child {
      align-items: center;
 }
 
+.banner_main_about {
+     background: url(../images/amberbanner.jpg);
+     background-repeat: no-repeat;
+     min-height: 240px;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+}
+
 .text-bg {
      text-align: center;
 }
@@ -800,12 +811,12 @@ ul.btn li:last-child {
 .about_Carousel .test_box h4 {
      font-size: 30px;
      color: #1d1c1c;
-     line-height: 18px;
+     line-height: 30px;
      display: block;
      text-align: center;
      text-transform: uppercase;
      font-weight: 600;
-     padding: 23px 0px 0px 0px;
+     padding: 45px 0px 0px 0px;
      text-align: left;
 }
 
@@ -820,12 +831,13 @@ ul.btn li:last-child {
 }
 
 .about_Carousel .test_box p {
-     font-size: 17px;
+     font-size: 20px;
      line-height: 28px;
      color: #fff;
      text-align: left;
      padding-left: 100px;
      margin-top: 45px;
+     margin-left: 30px;
 }
 
 .about_Carousel .carousel-indicators {
@@ -868,6 +880,15 @@ ul.btn li:last-child {
 .footer .titlepage h2 {
      color: #fff;
 }
+
+.footer .titlepage a {
+     color: #fff;
+}
+
+.footer .titlepage a:hover {
+     color: #dfb72c;
+}
+
 
 .main_form {
      padding: 50px 0px 50px 0px;
@@ -1110,6 +1131,14 @@ ul.link li a::after {
 .dealers iframe {
   width: 100%;
   height: 540px;
+}
+
+.dealers a {
+  color: #fff;
+}
+
+.dealers a:hover {
+  color: #dfb72c
 }
 
 /** Dealers section end **/
