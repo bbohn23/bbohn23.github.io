@@ -19,7 +19,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="icons/icon.png" type="image/png">
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
@@ -38,6 +38,15 @@
       <!-- end loader -->
       <!-- header -->
       <header>
+        <div class="header_top">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+              <li>
+                <a href="about.html">About Us</a> <a href="careers.html">Careers</a> <a href="contact.html">Contact Us</a>
+              </li>
+            </div>
+          </div>
+        </div>
          <!-- header inner -->
          <div class="header">
                <div class="row">
@@ -60,10 +69,10 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item">
-                                 <a class="nav-link" href="index.html"> Home  </a>
+                                 <a class="nav-link" href="index.html">Home</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
+                                 <a class="nav-link" href="promotions.html">Promos</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="products.html">Products </a>
@@ -87,80 +96,89 @@
       <!-- end header inner -->
       <!-- end header -->
 
-      <!-- choose  section -->
-      <div class="choose ">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-8">
-                  <div class="titlepage">
-                     <h2>Our Blog</h2>
-                     <p>there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined  </p>
-                  </div>
-               </div>
+      <!-- project  section -->
+      <div class="project">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="titlepage">
+                <h2>Custom Bin Projects</h2>
+                <p>Amber Waves works with our customers from start to finish on customizing a single storage bin to a complete industrial sized commercial operation. From drawing board to reality, you can benefit from our expertise gained over the past 20 years. With complete in-house R&D and Engineering team and over 60,000 sq ft of manufacturing space, no project is too big or too small. Our dedicated trained and certified staff are focused on making your project a success.  </p>
+              </div>
             </div>
-         </div>
-         <div class="container-fluid">
-            <div class="row d_flex">
-              <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-               <div class="padding_with">
-               <div class="row">
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row d_flex">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="row">
                   <div class="col-md-6 padding_bottom">
-                     <div class="choose_box">
-                        <i><img src="images/icon1.png" alt="#"/></i>
-                        <div class="choose_text">
-                           <h3>Excellent Service</h3>
-                           <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                     <div class="project_box">
+                        <i><img src="images/projects/stonemill_1.jpg" alt="Stone Mill" onclick="openModal();currentSlide(1)"/></i>
+                        <div class="project_text">
+                          <h3>Stone Mill</h3>
+                          <p>Richardton, North Dakota</p>
                         </div>
                      </div>
                   </div>
                   <div class="col-md-6 padding_bottom">
-                     <div class="choose_box">
-                        <i><img src="images/icon2.png" alt="#"/></i>
-                        <div class="choose_text">
-                           <h3>Clean Working</h3>
-                           <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                     <div class="project_box">
+                        <i><img src="images/projects/stainless_1.jpg" alt="So-Lo Air " onclick="openModal();currentSlide(2)"/></i>
+                        <div class="project_text">
+                          <h3>So-Lo Air</h3>
+                          <p>Valier, Montana</p>
                         </div>
                      </div>
                   </div>
-                  <div class="col-md-6 padding_bottom2">
-                     <div class="choose_box">
-                        <i><img src="images/icon3.png" alt="#"/></i>
-                        <div class="choose_text">
-                           <h3>Quality And Reliability</h3>
-                           <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                  <div class="col-md-6 padding_bottom">
+                    <div class="project_box">
+                      <i><img src="images/projects/stonemill_2.jpg" alt="Stone Mill" onclick="openModal();currentSlide(3)"/></i>
+                        <div class="project_text">
+                          <h3>Stone Mill</h3>
+                          <p>Richardton, North Dakota</p>
                         </div>
-                     </div>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                     <div class="choose_box">
-                        <i><img src="images/icon4.png" alt="#"/></i>
-                        <div class="choose_text">
-                           <h3>Expert Farmer</h3>
-                           <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                  <div class="col-md-6 padding_bottom">
+                    <div class="project_box">
+                      <i><img src="images/projects/brewery_1.jpg" alt="Bismarck Brewery" onclick="openModal();currentSlide(4)"/></i>
+                      <div class="project_text">
+                        <h3>Bismarck Brewery</h3>
+                        <p>Bismarck, North Dakota</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 padding_bottom">
+                    <div class="project_box">
+                      <i><img src="images/projects/wildcat_1.jpg" alt="Wildcat Minerals" onclick="openModal();currentSlide(5)"/></i>
+                        <div class="project_text">
+                          <h3>Wildcat Minerals</h3>
+                          <p>Fairview, Montana</p>
                         </div>
-                     </div>
+                    </div>
                   </div>
-               </div>
-
-               </div>
+                  <div class="col-md-6 padding_bottom">
+                    <div class="project_box">
+                      <i><img src="images/projects/tiber_1.jpg" alt="Tiber Grain" onclick="openModal();currentSlide(6)"/></i>
+                      <div class="project_text">
+                        <h3>Tiber Grain</h3>
+                        <p>Tiber, Montana</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
-               <div class="choose_img">
-                  <figure><img src="images/food.jpg" alt="#"/></figure>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="container">
-         <div class="row">
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
             <div class="col-md-5">
-                <a class="read_more" href="#">Read More</a>
+              <a class="read_more" href="contact.html">Get Started Today!</a>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
-      </div>
-   </div>
-      <!-- end choose  section -->
+      <!-- end project  section -->
 
       <!--  footer -->
       <footer id="contact">
@@ -198,12 +216,19 @@
                         <li><a href="products.html">Products</a></li>                             
                      </ul>
                   </div>
-                  <div class="col-md-2 border_right">
+                  <div class="col-md-2">
                     <h3>_</h3>
                      <ul class="link">                               
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="dealers.html">Dealers</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-2 border_right">
+                    <h3>_</h3>
+                     <ul class="link">                               
+                        <li><a href="projects.html">Careers</a></li>
+                        <li><a href="dealers.html">Promotions</a></li>
                      </ul>
                   </div>
                </div>
@@ -220,6 +245,57 @@
          </div>
       </footer>
       <!-- end footer -->
+      
+      <!-- Image slider start-->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="images\projects\stonemill_1.jpg" style="width:100%">
+            <p id="caption">Stone Mill</p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="images\projects\stainless_1.jpg" style="width:100%">
+            <p id="caption">Tiber Grain</p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="images\projects\stonemill_2.jpg" style="width:100%">
+            <p id="caption">Stone Mill</p>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="images\projects\brewery_1.jpg" style="width:100%">
+            <p id="caption">Bismarck Brewery</p>
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="images\projects\wildcat_1.jpg" style="width:100%">
+            <p id="caption">Wildcat Minerals</p>
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="images\projects\tiber_1.jpg" style="width:100%">
+            <p id="caption">Tiber Grain</p>
+          </div>
+
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <!-- Caption text -->
+        </div>
+      </div>
+      <!-- Image slider end-->
+
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
@@ -228,5 +304,6 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script src="js/image-expand.js"></script>
    </body>
 </html>
