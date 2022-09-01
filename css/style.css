@@ -351,7 +351,7 @@ ul.btn li:last-child {
 
 .get_btn a {
      display: inline-block;
-     padding: 8px 39px;
+     padding: 8px 15px;
      color: #fff;
      font-size: 16px;
      background-color: #dfb72c;
@@ -532,7 +532,7 @@ ul.btn li:last-child {
 
 .read_more {
      font-size: 17px;
-     background-color: #f4cb1e;
+     background-color: #dfb72c;
      color: #fff;
      padding: 13px 0px;
      width: 100%;
@@ -540,7 +540,6 @@ ul.btn li:last-child {
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
-     z-index: 9999;
      position: relative;
      font-weight: 500;
 }
@@ -1256,10 +1255,6 @@ ul.link li a::after {
 
 /** end footer **/
 
-.products_page .product .titlepage {
-     margin-top: 70px;
-}
-
 /** Dealers section **/
 .dealers h1 {
   color: #ffffff;
@@ -1424,18 +1419,12 @@ ul.link li a::after {
   clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
-.column_four {
-  float: left;
-  width: 25%;
-}
-
 /* The Modal (background) */
 .modal {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 20px;
   left: 0;
   top: 0;
   width: 100%;
@@ -1451,7 +1440,8 @@ ul.link li a::after {
   margin: auto;
   padding: 0;
   width: 100%;
-  max-width: 720px;
+  max-width: 640px;
+  text-align: center;
 }
 
 /* The Close Button */
@@ -1535,3 +1525,170 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /** Projects secton end **/
+
+/** Products Section**/
+
+.products_page .product .titlepage {
+     margin-top: 70px;
+}
+
+.products {
+     background-color: #e8e8e8;
+     padding: 40px 0 20px 0;
+     position: relative;
+}
+
+.products .titlepage {
+     text-align: left;
+     padding-bottom: 25px;
+}
+
+.products .titlepage h2 {
+     color: #000;
+}
+
+.products .titlepage p {
+     color: #000;
+     display: block;
+     font-size: 20px;
+     padding-top: 20px;
+     line-height: 32px;
+}
+
+.products .right_column a:hover{
+     color: #dfb72c;
+     padding-left: 10px;
+}
+
+.products .right_column .no_shift a:hover{
+     padding-left: 10px;
+     color: #000000;
+}
+
+.products .right_column .no_shift a {
+     padding-left: 10px;
+     padding-right: 10px;
+}
+
+.products .right_column p{
+     color: #000;
+     font-size: 17px;
+     padding-top: 5px;
+     padding-left: 10px;
+     border-bottom: 1px solid #949494; 
+}
+
+.products .right_column .active{
+     color: #dfb72c;
+     display: inline-block;
+     font-weight: bold;
+}
+
+.products .right_column h1{
+     color: #000;
+     font-size: 24px;
+     padding-top: 15px;
+     border-bottom: 3px solid #dfb72c; 
+     font-weight: bold;
+}
+
+.products .right_column h2{
+     padding-bottom: 15px; 
+}
+
+.products .right_column h4{
+     padding-top: 10px;
+     font-size: 18px;
+}
+
+.products .right_column img{
+     max-height: 20px;
+     vertical-align: top;
+     padding-top: 2px;
+     padding-right: 10px;
+}
+
+.products .right_column table{
+     width: 100%;
+}
+
+.products .right_column th{
+     padding-right: 10px;
+     padding-left: 5px;
+     padding-top: 5px;
+     font-size: 20px;
+     color: #000000;
+     vertical-align: top;
+     background: #d4d5d6;
+}
+
+.products .right_column .name th{
+     font-weight: bold;
+}
+
+.products .right_column .row2 th{
+     background: #ffffff;
+}
+
+.products .right_column td{
+     font-size: 18px;
+     background: #f5f5f5;
+     border: 1px solid #d4d5d6;
+     padding-left: 6px;
+}
+
+.products .right_column td:nth-child(even){
+     background: #ffffff;
+}
+
+.products_image a {
+     background: #ffffff;
+     display: inline-block;
+     padding: 15px 15px 30px;
+     text-align: center;
+     text-decoration: none;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+     transition: all .20s linear;
+     z-index: 0;
+     position: relative;
+}
+
+.products_image a:after {
+     color: #333;
+     font-size: 25px;
+     content: attr(title);
+     position: relative;
+     top: 15px;
+}
+
+.products_image img {
+     display: block;
+     width: 360px;
+}
+
+.products_image a:hover {
+     cursor: pointer;
+     background: #949494;
+}
+
+.products_btn {
+     font-size: 17px;
+     background-color: #fff;
+     color: #dfb72c;
+     border: 3px solid #dfb72c;
+     border-radius: 10px;
+     padding: 13px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+     position: relative;
+     font-weight: 500;
+}
+
+.products_btn:hover {
+     background: #000;
+     color: #fff;
+     transition: ease-in all 0.5s;
+}
