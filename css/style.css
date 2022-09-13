@@ -36,12 +36,17 @@ html {
      scroll-behavior: smooth;
 }
 
+html, body {
+     overflow-x: hidden;
+}
+
 body {
      color: #666666;
      font-size: 14px;
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     position: relative
 }
 
 a {
@@ -824,6 +829,7 @@ ul.btn li:last-child {
 
 .about_background{
      background: #D3D3D3;
+     border-top: 5px inset #000000;
 }
 
 .about_background::after {
@@ -915,12 +921,13 @@ ul.btn li:last-child {
 .value_box h3 {
      font-family: helvetica;
      font-size: 20px;
+     font-weight: bold;
      font-style: italic;
      padding-left: 60px;
      text-align: left;
+     text-shadow: -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000;
      padding-right: 10px;
      color: #fff;
-     text-shadow: 0px 0px 2px black;
 }
 
 .value_background {
@@ -1386,6 +1393,7 @@ ul.link li a::after {
      float: left;
      background-color: #f4cb1e;
      width: 360px;
+     object-fit: cover;
      padding: 5px;
      border-radius: 10px;
 }
@@ -1446,10 +1454,12 @@ ul.link li a::after {
 .close {
   color: white;
   position: absolute;
+  z-index: 1000;
   top: 10px;
   right: 25px;
-  font-size: 35px;
+  font-size: 65px;
   font-weight: bold;
+  text-shadow: 0px 0px 2px #000000;
 }
 
 .close:hover,
@@ -1644,7 +1654,7 @@ ul.link li a::after {
 
 .products .right_column td:nth-child(even){
      background: #ffffff;
-}  
+} 
 
 .products_image a {
      background: #ffffff;
