@@ -1707,3 +1707,24 @@ ul.link li a::after {
      color: #fff;
      transition: ease-in all 0.5s;
 }
+
+.contact {
+     text-align: left;
+     padding-left: 50px;
+}
+
+.contact img {
+     max-height: 26px;
+     vertical-align: top;
+     padding-top: 2px;
+     padding-right: 10px;
+}
+
+.text-bg .contact p {
+     padding-bottom: 0px;
+}
+
+.center {
+     margin: auto;
+     width: 50%;
+}
