@@ -365,6 +365,11 @@ ul.btn li:last-child {
      margin-left: 30px;
 }
 
+.get_btn .active a {
+     background-color: #d2d1d6;
+     color: #000000;
+}
+
 .get_btn a:hover {
      color: #fff;
      background-color: #d2d1d6;
@@ -1728,3 +1733,4 @@ ul.link li a::after {
      margin: auto;
      width: 50%;
 }
+
