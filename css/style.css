@@ -420,13 +420,59 @@ ul.btn li:last-child {
      height: 66px;
 }
 
+.dropdown {
+     position: relative;
+     display: inline-block;
+}
+
+.dropdown-content {
+     position: absolute;
+     background-color: #13110e;
+     min-width: 190px;
+     box-shadow: 0px 8px 16px 0px #000000;
+     z-index: 1;
+     color: #ffffff;
+     height: 0px;
+     transition: height .35s ease-in;
+     font-size: 0px;
+     line-height: 0;
+}
+
+.dropdown-content a {
+     color: #ffffff;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     padding-left: 10px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+     transition: all .35s ease-in;
+}
+
+.dropdown-content a:hover {
+     color: #dfb72c;
+}
+
+.dropdown:hover .dropdown-content {
+     display: block;
+     height: 215px;
+     font-size: 14px;
+     transition: height 0.35s ease-in 0s;
+     padding-bottom: 5px;
+     line-height: 2.5;
+     border-width: 5px;
+}
+
+.dropdown:hover .dropbtn {
+     color: #dfb72c;
+}
 
 /** banner section **/
 
 .banner_main {
      background: url(../images/amberbanner.jpg);
      background-repeat: no-repeat;
-     min-height: 840px;
+     min-height: 700px;
      background-size: cover;
      display: flex;
      justify-content: center;
