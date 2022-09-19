@@ -433,7 +433,7 @@ ul.btn li:last-child {
      z-index: 1;
      color: #ffffff;
      height: 0px;
-     transition: height .35s ease-in;
+     transition: height .35s ease-in .05s;
      font-size: 0px;
      line-height: 0;
 }
@@ -446,7 +446,7 @@ ul.btn li:last-child {
      text-decoration: none;
      display: block;
      text-align: left;
-     transition: all .35s ease-in;
+     transition: all .35s ease-in .05s;
 }
 
 .dropdown-content a:hover {
@@ -457,7 +457,7 @@ ul.btn li:last-child {
      display: block;
      height: 215px;
      font-size: 14px;
-     transition: height 0.35s ease-in 0s;
+     transition: height 0.35s ease-in .05s;
      padding-bottom: 5px;
      line-height: 2.5;
      border-width: 5px;
