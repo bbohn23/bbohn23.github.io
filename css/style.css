@@ -726,7 +726,7 @@ ul.btn li:last-child {
      padding-bottom: 20px;
 }
 
-.dealerss_img {
+.dealers_img {
      padding-left: 30px;
      padding-top: 30px;
 }
@@ -746,10 +746,7 @@ ul.btn li:last-child {
      overflow: hidden;
      width: 100%;
      padding-top: 80%;
-     margin-left: -15px;
-     box-shadow: 2px 2px 5px #000000,
-                 10px 10px 0px #ffffff;
-     
+     margin-left: -15px; 
 }
 
 .dealers_iframe {
@@ -760,7 +757,9 @@ ul.btn li:last-child {
      right: 0;
      width: 97%;
      height: 97%;
-     box-shadow: 0 0 25px #000000;
+     box-shadow: 2px 2px 5px #000000,
+                 10px 10px 0px #ffffff;
+     border: none;
 }
 
 .padding_with {
@@ -842,11 +841,6 @@ ul.btn li:last-child {
 
 .dealers_icon {
       padding-top: 30px;
-}
-
-.dealers iframe {
-     width: 100%;
-     height: 540px;
 }
 
 .dealers a {
