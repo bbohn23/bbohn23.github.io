@@ -963,7 +963,7 @@ ul.btn li:last-child {
 }
 
 .about_box img {
-     float: left;
+     float: center;
      background-color: #f4cb1e;
      padding: 0px;
      border-radius: 120px;
@@ -971,6 +971,7 @@ ul.btn li:last-child {
      z-index: -1;
      align-content: center;
      transition: all .25s ease-in;
+     max-width: 125px;
 }
 
 .about_box img:hover {
