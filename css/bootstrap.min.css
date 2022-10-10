@@ -3258,13 +3258,14 @@
           display:none
         }
       }
-      @media (max-width:767.98px){
+      /** should be 768 and 767.98 **/
+      @media (max-width:802.98px){
         .navbar-expand-md>.container,.navbar-expand-md>.container-fluid{
           padding-right:0;
           padding-left:0
         }
       }
-      @media (min-width:768px){
+      @media (min-width:802px){
         .navbar-expand-md{
           -ms-flex-flow:row nowrap;
           flex-flow:row nowrap;

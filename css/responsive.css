@@ -32,7 +32,8 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+/** used to be 768 not 802**/
+@media (min-width: 802px) and (max-width: 991px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 12px;
     }
@@ -86,7 +87,8 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+/** used to be 768 not 802**/
+@media (min-width: 576px) and (max-width: 802px) {
     .logo {
         padding-top: 0px;
         height: 66px;
