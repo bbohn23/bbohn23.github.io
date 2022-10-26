@@ -202,7 +202,8 @@
         text-transform:none
       }
       [type=reset],[type=submit],button,html [type=button]{
-        -webkit-appearance:button
+        -webkit-appearance:button;
+        appearance:button;
       }
       [type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{
         padding:0;border-style:none
@@ -211,7 +212,8 @@
         box-sizing:border-box;padding:0
       }
       input[type=date],input[type=datetime-local],input[type=month],input[type=time]{
-        -webkit-appearance:listbox
+        -webkit-appearance:listbox;
+        appearance: listbox
       }
       textarea{
         overflow:auto;
@@ -242,13 +244,18 @@
       }
       [type=search]{
         outline-offset:-2px;
-        -webkit-appearance:none
+        -webkit-appearance:none;
+        appearance: none;
       }
       [type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{
-        -webkit-appearance:none
+        -webkit-appearance:none;
+        appearance:none
       }
       ::-webkit-file-upload-button{
-        font:inherit;-webkit-appearance:button
+        font:inherit;
+        -webkit-appearance:button;
+        appearance:none;
+
       }
       output{
         display:inline-block
@@ -1956,12 +1963,12 @@
       .btn-secondary{
         color:#fff;
         background-color:#6c757d;
-        border-color:#00000
+        border-color:#000000;
       }
       .btn-secondary:hover{
         color:#fff;
         background-color:#000000;
-        border-color:#00000
+        border-color:#000000;
       }
       .btn-secondary.focus,.btn-secondary:focus{
         box-shadow:0 0 0 .2rem rgba(108,117,125,.5)
@@ -3258,7 +3265,7 @@
           display:none
         }
       }
-      /** should be 768 and 767.98 **/
+      /** used to be 768 and 767.98 **/
       @media (max-width:802.98px){
         .navbar-expand-md>.container,.navbar-expand-md>.container-fluid{
           padding-right:0;
@@ -4272,7 +4279,8 @@
         padding:0;
         background-color:transparent;
         border:0;
-        -webkit-appearance:none
+        -webkit-appearance:none;
+        appearance:none;
       }
       .modal-open{
         overflow:hidden
