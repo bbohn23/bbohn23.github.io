@@ -17,6 +17,14 @@
     animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 
+@font-face{
+    font-family: AgencyGothic;
+    src: url('../fonts/Agency-Gothic.otf');
+    src: url('../fonts/Agency-Gothic.otf') format("opentype"),
+         url('../fonts/Agency-Gothic.ttf') format("truetype"),
+         url('../fonts/Agency-Gothic.woff') format("woff");
+}
+
 @-webkit-keyframes sk-rotateplane {
     0% {
         -webkit-transform: perspective(120px)
@@ -489,4 +497,10 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
+}
+
+.logo{
+    font-family: 'AgencyGothic';
+    letter-spacing: .05em;
+    font-weight: 200 !important;
 }
