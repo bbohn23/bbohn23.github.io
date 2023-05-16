@@ -516,3 +516,15 @@ h6,
     letter-spacing: .05em;
     font-weight: 200 !important;
 }
+
+.employee{
+    align-items: center;
+}
+
+.employee a{
+    color: rgb(77, 77, 77);
+}
+
+.employee a:hover{
+    color: rgb(150, 150, 150);
+}
