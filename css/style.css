@@ -521,10 +521,22 @@ h6,
     align-items: center;
 }
 
+.employee table{
+    padding-bottom: 10px;
+}
+
 .employee a{
     color: rgb(77, 77, 77);
 }
 
 .employee a:hover{
     color: rgb(150, 150, 150);
+}
+
+.employee .btn{
+    color: #ffffff;
+}
+
+.employee .btn:hover{
+    color: #000000;
 }
